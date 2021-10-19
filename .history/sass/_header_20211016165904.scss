@@ -1,0 +1,16 @@
+.header {
+  margin-left: 20px;
+  &-container {
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-backgroud {
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+}

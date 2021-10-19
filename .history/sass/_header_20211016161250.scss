@@ -1,0 +1,14 @@
+.header {
+}
+.menu {
+  // list-style: none;
+  display: flex;
+  align-items: center;
+  &-item {
+    text-decoration: none;
+  }
+  &-link {
+    text-decoration: none;
+    color: $gray-color;
+  }
+}

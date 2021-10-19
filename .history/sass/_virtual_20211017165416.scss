@@ -1,0 +1,21 @@
+.virtual {
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-heading {
+    font-size: 48px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 197px;
+    line-height: calc(56 / 48);
+  }
+  &-content {
+    font-size: 21px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 445px;
+    line-height: calc(32 / 21);
+  }
+}

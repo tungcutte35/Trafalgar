@@ -1,0 +1,17 @@
+.header {
+  &-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-backgroud {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+}

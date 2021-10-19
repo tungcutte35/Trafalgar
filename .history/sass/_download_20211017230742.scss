@@ -1,0 +1,12 @@
+.download {
+  margin-bottom: 250px;
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 71px;
+  }
+  &-firsd {
+    max-width: 420px;
+  }
+}

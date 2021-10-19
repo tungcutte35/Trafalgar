@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  // padding: 0 15px;
+}
+body {
+  line-height: 1;
+  font-family: $font;
+  color: $text-color;
+  font-weight: 400;
+}
+button {
+  display: inline-block;
+  bottom: 0px;
+  left: 0px;
+  border: 2px solid #333;
+  background-color: #333;
+  padding: 24px 50px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+}

@@ -1,0 +1,12 @@
+.container-item-head {
+  color: red;
+}
+.container-item-icon {
+  color: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=app.css.map */

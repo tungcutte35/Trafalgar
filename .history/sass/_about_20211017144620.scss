@@ -1,0 +1,15 @@
+.about {
+  background-color: #fbfbfb;
+  max-width: 1170px;
+  margin-left: 70px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+    padding: 30px 70px 0 100px;
+  }
+  &-firsd {
+    max-width: 270px;
+  }
+}

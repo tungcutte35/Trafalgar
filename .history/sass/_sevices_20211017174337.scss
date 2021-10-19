@@ -1,0 +1,28 @@
+.sevices {
+  &-firsd {
+    width: 100%;
+    max-width: 952px;
+    margin: 0 auto 35px;
+    text-align: center;
+  }
+  &-heading {
+    font-size: 36px;
+    line-height: calc(56 / 36);
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -23px;
+      left: 47%;
+      width: 56px;
+      height: 2px;
+      background-color: black;
+    }
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}

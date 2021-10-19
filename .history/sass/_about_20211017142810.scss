@@ -1,0 +1,15 @@
+.about {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+  }
+  &-heading {
+    font-size: 64px;
+    font-weight: 300;
+    color: $gray-color;
+    position: absolute;
+    top: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+  &-item:first-child {
+    color: #000;
+  }
+  &-link {
+    color: inherit;
+    opacity: 0.5;
+    font-size: 18px;
+  }
+}

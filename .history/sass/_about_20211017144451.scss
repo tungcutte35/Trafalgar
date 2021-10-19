@@ -1,0 +1,11 @@
+.about {
+  background-color: #fbfbfb;
+  max-width: 1170px;
+  margin-left: 70px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+  }
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: $font;
+  line-height: 1;
+  font-size: 16px;
+  color: $gray;
+}
+ul {
+  list-style-type: none;
+}
+.button {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  height: 60px;
+  padding: 0 51px;
+  border-radius: 55px;
+  color: $primary-color;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  &-primary {
+    color: #fff;
+  }
+}

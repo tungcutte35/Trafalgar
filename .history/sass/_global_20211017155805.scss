@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: $font;
+  line-height: 1;
+  font-size: 16px;
+  color: $text-color;
+}
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,11 @@
+.header {
+  &-container {
+    &-icon {
+      color: red;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

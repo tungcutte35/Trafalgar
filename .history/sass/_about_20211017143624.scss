@@ -1,0 +1,35 @@
+.about {
+  background-color: #fbfbfb;
+  max-width: 1170px;
+  margin-left: 70px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+    position: relative;
+    max-width: 1000px;
+  }
+  &-heading {
+    font-size: 64px;
+    font-weight: 300;
+    color: $gray-color;
+    position: absolute;
+    top: 30px;
+  }
+  &-content {
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  &-firsd {
+    max-width: 270px;
+    margin-left: 100px;
+    padding-top: 30px;
+  }
+  &-second {
+    max-width: 270px;
+    padding-top: 40px;
+  }
+}

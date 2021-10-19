@@ -1,0 +1,15 @@
+.header {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-backgroud {
+    width: 1920px;
+    height: 1080px;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+}

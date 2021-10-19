@@ -1,0 +1,13 @@
+.checkout {
+  margin-bottom: 100px;
+  &-main {
+  }
+  &-header {
+    text-align: center;
+  }
+  &-heading {
+    font-size: 36px;
+    line-height: calc(56 / 36);
+    margin-bottom: 107px;
+  }
+}

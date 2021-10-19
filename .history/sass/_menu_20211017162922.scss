@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+  &-link {
+    color: #1f1534;
+    opacity: 0.5;
+    font-size: 18px;
+  }
+}

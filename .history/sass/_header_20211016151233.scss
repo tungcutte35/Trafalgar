@@ -1,0 +1,18 @@
+.header {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    margin-left: 500px;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding-top: 173px;
+  &-item {
+    font-size: 20px;
+  }
+}

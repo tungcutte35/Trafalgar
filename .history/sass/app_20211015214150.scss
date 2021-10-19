@@ -1,0 +1,11 @@
+.container {
+  &-item {
+    &-head {
+      color: red;
+    }
+    &-icon {
+      color: yellow;
+      text-align: center;
+    }
+  }
+}

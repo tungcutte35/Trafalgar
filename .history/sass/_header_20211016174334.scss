@@ -1,0 +1,24 @@
+.header {
+  margin-top: 30px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 48px;
+  position: relative;
+  &-item:first-child {
+    border-top: 2px solid $text-color;
+    border-bottom: 2px solid $text-color;
+    width: 68px;
+    padding: 4px 0;
+  }
+  &-link {
+    color: inherit;
+  }
+}

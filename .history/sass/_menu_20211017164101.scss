@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+  &-link {
+    color: #8f8a9a;
+    font-size: 18px;
+  }
+  &-link:after {
+    display: block;
+    content: "";
+    border-bottom: solid 2px $primary-color;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  &-link:hover:after {
+    transform: scaleX(1);
+  }
+  &-link:hover {
+    color: $primary-color;
+  }
+}

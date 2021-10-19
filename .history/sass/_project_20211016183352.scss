@@ -1,0 +1,17 @@
+.project {
+  margin-bottom: 20px;
+  &-container {
+    font-size: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-heading {
+    color: $gray-color;
+    font-weight: 300;
+    padding-left: 100;
+  }
+  &-img {
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  &-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-backgroud {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0;
+    right: 0;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+}

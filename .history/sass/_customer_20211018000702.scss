@@ -1,0 +1,26 @@
+.customer {
+  margin-bottom: 278px;
+  &-main {
+    max-width: 1167px;
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    border-radius: 24px;
+  }
+  &-firds {
+    margin-top: 100px;
+  }
+  &-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: white;
+    line-height: calc(48 / 36);
+  }
+  &-seconds {
+    max-width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 175px;
+  }
+}

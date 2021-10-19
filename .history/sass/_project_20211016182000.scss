@@ -1,0 +1,17 @@
+.project {
+  &-container {
+    font-size: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-heading {
+    color: $gray-color;
+    font-weight: 300;
+  }
+  &-img {
+    width: 770px;
+    height: 830px;
+    padding-left: -20px;
+  }
+}

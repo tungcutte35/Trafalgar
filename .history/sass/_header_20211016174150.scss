@@ -1,0 +1,22 @@
+.header {
+  margin-top: 30px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 48px;
+  position: relative;
+  &-item:first-child::after {
+    border: 2px solid #ccc;
+    background-color: #ccc;
+  }
+  &-link {
+    color: inherit;
+  }
+}

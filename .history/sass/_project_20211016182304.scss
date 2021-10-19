@@ -1,0 +1,18 @@
+.project {
+  margin-bottom: 20px;
+  &-container {
+    font-size: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 54px;
+  }
+  &-heading {
+    color: $gray-color;
+    font-weight: 300;
+  }
+  &-img {
+    width: 770px;
+    height: 830px;
+  }
+}

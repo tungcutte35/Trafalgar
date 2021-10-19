@@ -1,0 +1,30 @@
+.header {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 48px;
+  position: relative;
+  &-item:first-child {
+    border-top: 2px solid $text-color;
+    border-bottom: 2px solid $text-color;
+    width: 80px;
+    padding: 6px 20px;
+  }
+
+  &-link {
+    color: inherit;
+  }
+  &-link:hover {
+    color: #41a2e7;
+    border-bottom: 2px solid #41a2e7;
+  }
+}

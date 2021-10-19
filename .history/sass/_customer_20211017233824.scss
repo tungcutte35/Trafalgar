@@ -1,0 +1,13 @@
+.customer {
+  &-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-seconds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 175px;
+  }
+}

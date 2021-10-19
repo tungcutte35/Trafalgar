@@ -1,0 +1,15 @@
+.header {
+  width: 1920px;
+  height: 1080px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  &-item {
+    text-decoration: none;
+  }
+  &-link {
+    text-decoration: none;
+  }
+}

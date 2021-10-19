@@ -1,0 +1,13 @@
+.checkout {
+  margin-bottom: 100px;
+  &-main {
+  }
+  &-header {
+    text-align: center;
+  }
+  &-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

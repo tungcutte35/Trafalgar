@@ -1,0 +1,42 @@
+.lead {
+  margin-bottom: 230px;
+
+  &-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 137px;
+  }
+  &-img {
+    width: 100%;
+    max-width: 650px;
+  }
+  &-firsd {
+    max-width: 486px;
+    margin-top: -30px;
+  }
+  &-heading {
+    font-size: 36px;
+    line-height: calc(56 / 36);
+    margin-bottom: 60px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 56px;
+      height: 3px;
+      bottom: -26px;
+      left: 0;
+      border-radius: 10px;
+      background-color: black;
+    }
+  }
+  &-content {
+    max-width: 430px;
+    height: auto;
+    font-size: 20px;
+    line-height: calc(30 / 18);
+    margin-bottom: 37px;
+  }
+}

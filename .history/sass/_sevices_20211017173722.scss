@@ -1,0 +1,22 @@
+.sevices {
+  &-firsd {
+    width: 100%;
+    max-width: 952px;
+    margin: 0 auto 35px;
+    text-align: center;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      width: 56px;
+      height: 2px;
+      background-color: black;
+    }
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
